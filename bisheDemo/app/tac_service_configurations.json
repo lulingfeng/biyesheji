@@ -1,0 +1,30 @@
+{
+    "version": "1.0.0",
+    "warning": "请不要修改这个文件中的内容",
+    "project": {
+        "projectId": 107571
+    },
+    "application": {
+        "appId": 106864,
+        "packageId": "com.llf.bishe"
+    },
+    "services": {
+        "analytics": {
+            "appKey": "Aqcloud106864"
+        },
+        "messaging": {
+            "appId": "2100330073",
+            "appKey": "A84VE9ES78DU"
+        },
+        "crash": {
+            "appId": "e3d4dcfa9a"
+        },
+        "payment": {
+            "offerId": "TC106864"
+        },
+        "storage": {
+            "bucket": "tac-llf-st-1258877383",
+            "region": "ap-shanghai"
+        }
+    }
+}

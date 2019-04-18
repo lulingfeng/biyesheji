@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:title="主界面"
+        android:enabled="true"
+        android:icon="@mipmap/p1"></item>
+    <item android:id="@+id/item2"
+        android:title="@string/jiemian_2"
+        android:enabled="true"
+        android:icon="@mipmap/mima"></item>
+    <item android:id="@+id/item3"
+        android:enabled="true"
+        android:title="界面3"
+        android:icon="@mipmap/p3"></item>
+    <item android:id="@+id/item4"
+        android:enabled="true"
+        android:title="界面4"
+        android:icon="@mipmap/p4"></item>
+    <item android:id="@+id/item5"
+        android:enabled="true"
+        android:title="MY"
+        android:icon="@drawable/me"></item>
+</menu>

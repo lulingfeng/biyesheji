@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ImageButton
+        android:id="@+id/exit2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/exit"
+        app:srcCompat="@mipmap/exit" />
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/aa"
+            app:srcCompat="@drawable/aa" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/denglu" />
+
+        <EditText
+            android:id="@+id/signup_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="20"
+            android:gravity="center_vertical"
+            android:hint="请输入账号"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fengefu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/fengefu"
+        app:srcCompat="@mipmap/fengefu" />
+
+    <ImageView
+        android:id="@+id/fengefu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/fengefu"
+        app:srcCompat="@mipmap/fengefu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/mima"
+            app:srcCompat="@mipmap/mima" />
+
+        <EditText
+            android:id="@+id/signup_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:background="#ffffff"
+            android:ems="20"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="330dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/fengefu"
+        app:srcCompat="@mipmap/fengefu" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="382dp"
+        android:background="@mipmap/fengefu"
+        app:srcCompat="@mipmap/fengefu" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/mima"
+            app:srcCompat="@mipmap/mima" />
+
+        <EditText
+            android:id="@+id/sign_pwd2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:background="#ffffff"
+            android:ems="20"
+            android:hint="请再次输入密码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="注册" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/warnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ff0000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
