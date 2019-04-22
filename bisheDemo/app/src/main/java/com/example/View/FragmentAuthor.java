@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.bishedemo.GlideImageLoader;
 import com.example.bishedemo.R;
+import com.show.api.ShowApiRequest;
 import com.youth.banner.Banner;
 import com.youth.banner.listener.OnBannerListener;
 
@@ -30,7 +31,7 @@ public class FragmentAuthor extends Fragment {
         View view=inflater.inflate(R.layout.faxian,container,false);
         banner=new Banner(this.getActivity());
         banner=view.findViewById(R.id.banner);
-        
+
         List<Integer> images=new ArrayList<>();
         //TODO 作者优秀作品展示
         images.add(R.mipmap.house);

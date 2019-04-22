@@ -21,7 +21,7 @@ public class Fragment1 extends Fragment {
 
     private ViewPager mViewPager1;
     private TabLayout mTabLayout;
-    private String[] tabTitle = {"月榜","周榜","日榜"};
+    private String[] tabTitle = {"恐怖","故事","冷知识"};
 
     @Nullable
     @Override

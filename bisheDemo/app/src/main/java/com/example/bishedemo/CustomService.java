@@ -13,10 +13,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.Adapter.MsgAdapter;
 import com.example.Thread.SocketCloseInterface;
 import com.example.Thread.SocketHeartBeatThread;
 import com.example.util.SocketUtil;

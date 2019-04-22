@@ -16,7 +16,6 @@ import static com.example.bishedemo.ZhuYe.VIP_SETTING;
  *
  */
 
-
 public class LoginThread extends Thread {
     Context mContext;
     Message message;
