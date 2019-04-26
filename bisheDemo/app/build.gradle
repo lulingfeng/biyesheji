@@ -38,6 +38,10 @@ dependencies {
     implementation 'com.youth.banner:banner:1.4.10'
     implementation files('libs/showapi_sdk.jar')
     implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.crazysunj:cardslideview:1.4.2'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-22'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-22'//没有使用特殊Header，可以不加这行
+    implementation 'com.android.support:appcompat-v7:25.3.1'//版本 23以上（必须）
 }
 apply plugin: 'com.tencent.tac.services'
 

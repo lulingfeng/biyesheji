@@ -38,6 +38,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.ConfigInfo.UrlManager.IP;
+import static com.example.ConfigInfo.UrlManager.PORT;
+
 public class CustomService extends AppCompatActivity {
 
     Socket msocket;
@@ -57,7 +60,6 @@ public class CustomService extends AppCompatActivity {
     private MsgAdapter adapter;
     private String content;
     private Boolean connectedFlag=false;
-    private static final String IP="192.168.1.4";
     private boolean stopFlag=true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,7 +99,7 @@ public class CustomService extends AppCompatActivity {
                     adapter.notifyItemInserted(msgList.size()-1);
                     msgRecyclerView.scrollToPosition(msgList.size()-1);
                     inputText.setText("");
-                        Log.e("点击事件socket",msocket.getInetAddress().toString());
+                      //  Log.e("点击事件socket",msocket.getInetAddress().toString());
                         new Thread(new Runnable() {
                             @Override
                             public void run() {
@@ -286,7 +288,7 @@ public class CustomService extends AppCompatActivity {
             try {
                 while (stopFlag) {
                     String result;
-                    Socket socket = new Socket(IP, 60010);
+                    Socket socket = new Socket(IP, PORT);
                     msocket=socket;
                     connectedFlag=true;
                     Log.e("llf", socket.getInetAddress() + "");

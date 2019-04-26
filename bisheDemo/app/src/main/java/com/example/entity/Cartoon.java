@@ -5,7 +5,24 @@ public class Cartoon {
     private String title;
     private String content;
     private String id;
+    private String detaiInfo;
 
+    public String getDetaiInfo() {
+        return detaiInfo;
+    }
+
+    public void setDetaiInfo(String detaiInfo) {
+        this.detaiInfo = detaiInfo;
+    }
+
+    public Cartoon(String name, String title, String content){
+        this.name=name;
+        this.title=title;
+        this.content=content;
+    }
+    public Cartoon(String content){
+            this.content=content;
+    }
     public String getName() {
         return name;
     }
