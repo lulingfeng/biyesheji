@@ -15,8 +15,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.Fragment.FragmentMy;
 import com.example.bishedemo.R;
-import com.example.bishedemo.ZhuYe;
+import com.example.Activity.ZhuYe;
 import com.example.database.DatabaseHelper;
 import com.tencent.qcloud.core.auth.OAuth2Credentials;
 import com.tencent.qcloud.core.common.QCloudClientException;

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.xinge:xgmz:3.2.6-release@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/libs/pushsdk-3.3.170110.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/libs/Xg4mzpush-v3.2.6_20180802_1755.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.xinge/xgmz/3.2.6-release/5eeb8d8c847abecdb392585b45a8e0bd01cea48a/xgmz-3.2.6-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

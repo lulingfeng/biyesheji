@@ -1,7 +1,9 @@
 package com.example.entity;
 
+import android.graphics.Bitmap;
+
 public class ImageData {
-    private String id;
+    private Bitmap content;
     private String time;
 
     public String getTime() {
@@ -12,11 +14,11 @@ public class ImageData {
         this.time = time;
     }
 
-    public String getId() {
-        return id;
+    public Bitmap getContent() {
+        return content;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setContent(Bitmap content) {
+        this.content = content;
     }
 }

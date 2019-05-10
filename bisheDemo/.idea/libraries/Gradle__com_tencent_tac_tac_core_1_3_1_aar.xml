@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.tac:tac-core:1.3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tac-core-1.3.1.aar/187d1dca9815851b0aedd869a4143141/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tac-core-1.3.1.aar/187d1dca9815851b0aedd869a4143141/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.tac/tac-core/1.3.1/a0ae6265e8ddc8324754816e48d48b26b6fc6b92/tac-core-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

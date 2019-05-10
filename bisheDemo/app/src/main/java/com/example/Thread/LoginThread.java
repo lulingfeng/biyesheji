@@ -4,11 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
-import android.widget.Toast;
 
 import com.example.View.Login;
 
-import static com.example.bishedemo.ZhuYe.VIP_SETTING;
+import static com.example.Activity.ZhuYe.VIP_SETTING;
 
 /**
  *判断是否登录，只有登录状态才能进入相关页面

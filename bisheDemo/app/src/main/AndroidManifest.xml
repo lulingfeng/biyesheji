@@ -7,7 +7,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -17,14 +16,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name=".CustomService"></activity>
-        <activity android:name=".ZhuYe">
+        <activity
+            android:name="com.example.Activity.WelcomeActivity"
+            android:label="@string/title_activity_welcome">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.Activity.ReadCartoon" />
+        <activity android:name="com.example.Activity.CustomService" />
+        <activity android:name="com.example.Activity.ZhuYe">
+
         </activity>
         <activity android:name="com.example.View.Login" />
         <activity android:name="com.example.View.Signup" />

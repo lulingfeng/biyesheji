@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.wup:wup:1.0.0.E-release@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/wup-1.0.0.E-release.aar/c01efc40c5304a5b239740af37e58617/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/wup-1.0.0.E-release.aar/c01efc40c5304a5b239740af37e58617/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/wup-1.0.0.E-release.aar/c01efc40c5304a5b239740af37e58617/jars/libs/wup-1.0.0.E-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.wup/wup/1.0.0.E-release/5c02eeb06dfe0b80b3d5679551b1735de36d7ee/wup-1.0.0.E-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

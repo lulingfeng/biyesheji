@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.tac:tac-messaging-lite:1.3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tac-messaging-lite-1.3.1.aar/7655bf64340ade273d1ad852fef176f6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tac-messaging-lite-1.3.1.aar/7655bf64340ade273d1ad852fef176f6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.tac/tac-messaging-lite/1.3.1/8214299c70ecd9f5235a12bcdeebf5636ffd39cd/tac-messaging-lite-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

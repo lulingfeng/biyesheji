@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.bishedemo.Msg;
+import com.example.entity.Msg;
 import com.example.bishedemo.R;
 
 import java.util.List;

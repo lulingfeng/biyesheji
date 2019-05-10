@@ -8,6 +8,7 @@ public class UrlManager {
     public static final String GUSHI="/category/weimanhua/gushimanhua";
     public static final String DUANZISHOU="/category/duanzishou";
     public static final String LENGZHISHI="/category/lengzhishi";
+
     public static final String QIQU="/category/qiqu";
     public static final String GAOXIAO="/category/gaoxiao";
     public static final String MENGCHONG="/category/mengchong";
