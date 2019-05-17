@@ -97,7 +97,6 @@ public class ZhuYe extends AppCompatActivity implements RadioGroup.OnCheckedChan
         btn4 = (RadioButton) findViewById(R.id.btn4);
         btn5=findViewById(R.id.btn5);
         navigationBar.setOnCheckedChangeListener(this);
-
         LayoutInflater inflater=LayoutInflater.from(ZhuYe.this); //找到res/layout目录下的xml文件
         View view=inflater.inflate(R.layout.my,null);
         loginMain=view.findViewById(R.id.loginMain);

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.tencent.xinge:xghw:3.2.6-release@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/a546f0c7e001a384b6698b5375e9baad/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/a546f0c7e001a384b6698b5375e9baad/jars/libs/HMSSdkPush_2.5.2.300.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/a546f0c7e001a384b6698b5375e9baad/jars/libs/HMSSdkBase_2.5.2.300.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/a546f0c7e001a384b6698b5375e9baad/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/a546f0c7e001a384b6698b5375e9baad/jars/libs/Xg4hwpush-v3.2.6_20180801_1453.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/9d65a3829123196c736e16191bd8c9fe/jars/libs/HMSSdkPush_2.5.2.300.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/9d65a3829123196c736e16191bd8c9fe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/9d65a3829123196c736e16191bd8c9fe/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/9d65a3829123196c736e16191bd8c9fe/jars/libs/HMSSdkBase_2.5.2.300.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xghw-3.2.6-release.aar/9d65a3829123196c736e16191bd8c9fe/jars/libs/Xg4hwpush-v3.2.6_20180801_1453.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

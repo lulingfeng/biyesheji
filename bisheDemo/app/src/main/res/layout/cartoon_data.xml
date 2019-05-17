@@ -24,6 +24,7 @@
             android:layout_margin="5dp"
             android:textSize="15dp"
             />
+
         <TextView
             android:id="@+id/cartoonContent"
             android:layout_width="match_parent"

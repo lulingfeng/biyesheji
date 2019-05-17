@@ -9,21 +9,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.AbsListView;
+import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.Adapter.DataAdapter;
 import com.example.bishedemo.R;
-import com.example.entity.Cartoon;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.header.BezierRadarHeader;
 import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.show.api.ShowApiRequest;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
@@ -34,9 +33,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.ConfigInfo.UrlManager.BASEURL;
+import static com.example.ConfigInfo.UrlManager.CHANGE_BG;
 import static com.example.ConfigInfo.UrlManager.DETAILURL;
-import static com.example.ConfigInfo.UrlManager.KONGBU;
 
 public class ReadCartoon extends AppCompatActivity {
     String data="";
@@ -44,7 +42,8 @@ public class ReadCartoon extends AppCompatActivity {
     List<Bitmap> bitmapList;
     DataAdapter dataAdapter;
     ListView listView;
-    String message;
+    RefreshLayout refreshLayout;
+    LinearLayout linearLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,14 +55,15 @@ public class ReadCartoon extends AppCompatActivity {
     }
 
     private void initView() {
+        linearLayout=findViewById(R.id.bg);
         final RefreshLayout refreshLayout =findViewById(R.id.refreshData);
         refreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh(RefreshLayout refreshlayout) {
                 refreshlayout.finishRefresh(2000/*,false*/);//传入false表示刷新失败
-                bitmapList.clear();
+                bitmapList.removeAll(bitmapList);
+                cartoonData.removeAll(cartoonData);
                 readData();
-
 
             }
         });
@@ -100,6 +100,11 @@ public class ReadCartoon extends AppCompatActivity {
                         @Override
                         public void run() {
                                 try {
+                                    if (cartoonData.size()==0){
+                                        Message msg = Message.obtain();
+                                        msg.what=CHANGE_BG;
+                                        mHandler.sendMessage(msg);
+                                    }
                                     for (int i = 0; i < cartoonData.size(); i++) {
                                         String timage = cartoonData.get(i).replace("\"","");
                                         Bitmap bitmap = getHttpBitmap(timage);
@@ -182,6 +187,7 @@ public class ReadCartoon extends AppCompatActivity {
             switch (msg.what){
                 case 0x1:
                     try {
+                        linearLayout.setBackgroundResource(R.drawable.t);
                         Object resultObj=new JSONTokener((String)msg.obj).nextValue();
                         JSONObject resultMap=(JSONObject)resultObj;
                         JSONObject showData=resultMap.getJSONObject("showapi_res_body");
@@ -198,9 +204,12 @@ public class ReadCartoon extends AppCompatActivity {
                         readData();
                     } catch (JSONException e) {
                         e.printStackTrace();
+                        linearLayout.setBackgroundResource(R.drawable.tt);
                         Toast.makeText(ReadCartoon.this,"无法连接服务器，请打开网络重试",Toast.LENGTH_LONG).show();
-
                     }
+                    break;
+                case CHANGE_BG:
+                    linearLayout.setBackgroundResource(R.drawable.tt);
                     break;
                     default:
                     break;

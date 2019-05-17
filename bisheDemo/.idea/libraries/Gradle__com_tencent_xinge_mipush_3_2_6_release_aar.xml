@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.tencent.xinge:mipush:3.2.6-release@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/5b7de773f9ff10ec9276c2bb5d9c52ea/jars/libs/MiPush_SDK_Client_3_6_9.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/5b7de773f9ff10ec9276c2bb5d9c52ea/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/5b7de773f9ff10ec9276c2bb5d9c52ea/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/5b7de773f9ff10ec9276c2bb5d9c52ea/jars/libs/Xg4xmpush-v3.2.6_20180802_1755.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/ae660d9c8fb11f0828809f7a3e845d26/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/ae660d9c8fb11f0828809f7a3e845d26/jars/libs/MiPush_SDK_Client_3_6_9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/ae660d9c8fb11f0828809f7a3e845d26/jars/libs/Xg4xmpush-v3.2.6_20180802_1755.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mipush-3.2.6-release.aar/ae660d9c8fb11f0828809f7a3e845d26/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

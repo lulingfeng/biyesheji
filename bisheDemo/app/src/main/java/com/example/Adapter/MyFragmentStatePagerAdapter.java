@@ -4,9 +4,13 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.example.Fragment.list_duanzishou;
+import com.example.Fragment.list_gaoxiao;
 import com.example.Fragment.list_kongbu;
 import com.example.Fragment.list_gushi;
 import com.example.Fragment.list_lengzhishi;
+import com.example.Fragment.list_mengchong;
+import com.example.Fragment.list_qiqu;
 
 
 /**
@@ -34,6 +38,14 @@ public class MyFragmentStatePagerAdapter extends FragmentStatePagerAdapter {
                 return new list_gushi();
             case 2:
                return new list_lengzhishi();
+            case 3:
+                return  new list_duanzishou();
+            case 4:
+                return new list_qiqu();
+            case 5:
+                return  new list_gaoxiao();
+            case 6:
+                return  new list_mengchong();
         }
         return null;
     }

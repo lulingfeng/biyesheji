@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.crazysunj:cardslideview:1.4.2@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/b8d0e0485289dd77d49994e78996d514/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/09c3b1bab870165747885979b7a507c0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/b8d0e0485289dd77d49994e78996d514/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/b8d0e0485289dd77d49994e78996d514/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/09c3b1bab870165747885979b7a507c0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/cardslideview-1.4.2.aar/09c3b1bab870165747885979b7a507c0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

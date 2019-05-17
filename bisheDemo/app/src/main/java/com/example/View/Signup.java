@@ -40,7 +40,7 @@ public class Signup extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
         databaseHelper=new DatabaseHelper(this,DATABASE_NAME,null,2);
-         sqLiteDatabase=databaseHelper.getWritableDatabase();
+        sqLiteDatabase=databaseHelper.getWritableDatabase();
         initView();
     }
 

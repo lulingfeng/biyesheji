@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">一只鹿</string>
     <string name="jiemian_2">界面2</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_welcome">一只鹿</string>
+    <string-array name="qqq">
+        <item>按地区</item>
+        <item>按类型</item>
+        <item>按是否收费</item>
+    </string-array>
 </resources>

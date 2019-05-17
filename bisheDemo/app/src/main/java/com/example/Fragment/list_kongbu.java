@@ -117,6 +117,7 @@ public class list_kongbu extends Fragment {
                 cartoon.setId(content);
                 cartoon.setDetaiInfo(id);
                 list.add(cartoon);
+
             }
         } catch (Exception e) {
             e.printStackTrace();

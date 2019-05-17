@@ -28,7 +28,7 @@ public class FragmentAuthor extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.faxian,container,false);
-        banner=new Banner(this.getActivity());
+        /*banner=new Banner(this.getActivity());
         banner=view.findViewById(R.id.banner);
 
        List<Integer> images=new ArrayList<>();
@@ -53,7 +53,7 @@ public class FragmentAuthor extends Fragment {
                 }
             }
         });
-        banner.start();
+        banner.start();*/
         return view;
 
     }

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.tencent.xinge:xinge:3.2.6-release@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/64591ccc2d19ba467226e94e89f4a5e4/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/64591ccc2d19ba467226e94e89f4a5e4/jars/libs/Xg_sdk_v3.2.6_20180802_1839.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/64591ccc2d19ba467226e94e89f4a5e4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/753316a5ca8b502212ea4dc320d2a687/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/753316a5ca8b502212ea4dc320d2a687/jars/libs/Xg_sdk_v3.2.6_20180802_1839.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xinge-3.2.6-release.aar/753316a5ca8b502212ea4dc320d2a687/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

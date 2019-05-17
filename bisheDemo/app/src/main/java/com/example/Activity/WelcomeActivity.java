@@ -27,7 +27,7 @@ public class WelcomeActivity extends Activity {
 
     private static final float SCALE_END = 1.15F;
 
-    private static final int[] Imgs={R.mipmap.denglu,R.mipmap.exit
+    private static final int[] Imgs={R.mipmap.welcome
           };
 
     @Override

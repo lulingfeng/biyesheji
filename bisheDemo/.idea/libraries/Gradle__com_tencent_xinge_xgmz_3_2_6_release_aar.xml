@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.tencent.xinge:xgmz:3.2.6-release@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/libs/pushsdk-3.3.170110.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/7c1538d498084d5342c40d7781d0edde/jars/libs/Xg4mzpush-v3.2.6_20180802_1755.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/f44b1d8b8c6555dcca0aae0159bcaa2a/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/f44b1d8b8c6555dcca0aae0159bcaa2a/jars/libs/pushsdk-3.3.170110.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/f44b1d8b8c6555dcca0aae0159bcaa2a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xgmz-3.2.6-release.aar/f44b1d8b8c6555dcca0aae0159bcaa2a/jars/libs/Xg4mzpush-v3.2.6_20180802_1755.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

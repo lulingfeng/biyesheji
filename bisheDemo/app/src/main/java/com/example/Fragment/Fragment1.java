@@ -16,7 +16,7 @@ import com.example.bishedemo.R;
 /**
  * @Author: pyz
  * @Package: com.pyz.viewpagerdemo
- * @Description: TODO
+ * @Description:
  * @Project: ViewPagerDemo
  * @Date: 2016/8/1 14:22
  */
@@ -29,7 +29,7 @@ public class Fragment1 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.paihangbang, container, false);
+        View rootView = inflater.inflate(R.layout.list_shouye, container, false);
         initViews(rootView);
         initData();
         return rootView;
@@ -46,10 +46,8 @@ public class Fragment1 extends Fragment {
             mTabLayout.addTab(mTabLayout.newTab().setText(tabTitle[i]));
         }
         mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-//        mTabLayout.setSelectedTabIndicatorColor(Color.parseColor("#7CCD7C"));
+     //   mTabLayout.setSelectedTabIndicatorColor(Color.parseColor("#7CCD7C"));
         mTabLayout.setTabTextColors(Color.GRAY, Color.parseColor("#FF4081"));
-
-
         mViewPager1.setAdapter(new MyFragmentStatePagerAdapter(getChildFragmentManager(),tabTitle));
         mViewPager1.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTabLayout));
         mTabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
